@@ -19,11 +19,11 @@ module plate(){
     }
   }
 
-module  coil() {
+module coil() {
 translate([0, 0, 28])
   union() {
     plate();
-    translate([0, 0, -55])
+    translate([0, 0, -56])
     mirror([0, 0, 1])
       plate();
   }
